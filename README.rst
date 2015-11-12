@@ -4,6 +4,7 @@ CSV Scan
 CSV scan is a simple tool for getting basic information about a csv document.
 
 .. code-block:: python
+
    >>> doc = csv_scan.read('/path/to/csvfile.csv')
    >>> doc.columns
    ['name', 'age', 'occupation']
@@ -14,11 +15,12 @@ CSV scan is a simple tool for getting basic information about a csv document.
    }
    >>> doc.info()
    # Information output here
-   ...
+
 
 It can also be used from the command line.
 
 .. code-block:: bash
+
    $ csv_scan /path/to/csvfile.csv
    34210 observations, 3 fields, 2.4 mb
    $ csv_scan /path/to/csvfile.csv -v
@@ -32,5 +34,5 @@ It can also be used from the command line.
 
    Size: 2.4 mb
    Encoding: UTF-8
-   ...
+
 
