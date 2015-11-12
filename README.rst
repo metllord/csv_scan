@@ -14,7 +14,7 @@ CSV scan is a simple tool for getting basic information about a csv document.
    }
    >>> doc.info()
    # Information output here
-...
+   ...
 
 It can also be used from the command line.
 
@@ -32,5 +32,5 @@ It can also be used from the command line.
 
    Size: 2.4 mb
    Encoding: UTF-8
-...
+   ...
 
